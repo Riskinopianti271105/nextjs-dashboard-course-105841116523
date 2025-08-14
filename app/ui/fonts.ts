@@ -1,12 +1,13 @@
+// Import Google Fonts melalui next/font
 import { Inter, Lusitana } from 'next/font/google';
 
-// Primary font
+// Primary Font: Inter (untuk seluruh aplikasi)
 export const inter = Inter({
-  subsets: ['latin'],
+  subsets: ['latin'], // subset Latin saja
 });
 
-// Secondary font
+// Secondary Font: Lusitana (untuk elemen tertentu)
 export const lusitana = Lusitana({
-  weight: ['400', '700'],
+  weight: ['400', '700'], // normal & bold
   subsets: ['latin'],
 });
